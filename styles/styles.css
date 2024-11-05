@@ -2,10 +2,9 @@
     --dark-green: #FABC3F;
     --medium-green: #e5e7eb;
     --light-grey: #d3d3d3;
-    --off-white: #800000;
+    --off-white: #74091b;
     --yellow: #F5B133;
-    --highlight: --white8DB;
-    --white: #fff;
+    --white: #F2E8C6;
 }
 
 body {
@@ -16,13 +15,17 @@ body {
     justify-content: center;
     text-align: center;
     margin: 0;
-    background-color: var(--off-white);
+    background-image: 
+      linear-gradient(to top, rgba(0, 0, 0, 0.2), var(--off-white)), /* Gradient background */
+      linear-gradient(to right, rgba(245, 177, 51, 0.1) 1px, transparent 2px), /* Horizontal lines */
+      linear-gradient(to bottom, rgba(245, 177, 51, 0.1) 1px, transparent 2px); /* Vertical lines */
+    background-color: var(--off-white);  /* Fallback for older browsers */
     color: var(--white);
     min-height: 100vh;
     overflow: hidden;
-    background-image: linear-gradient(to right, rgba(245, 177, 51, 0.1) 1px, transparent 2px), linear-gradient(to bottom, rgba(245, 177, 51, 0.1) 1px, transparent 2px);
-    background-size: 25px 25px;
-}
+    background-size: 25px 25px; /* Define the size of the grid pattern */
+  }
+  
 
 .logo {
     position: absolute;
@@ -105,7 +108,7 @@ header {
 
 .icon-left, .icon-right {
     font-size: 30px;
-    color: var(--highlight);
+    color: var(--white);
 }
 
 .skills-section h2 {
@@ -148,7 +151,7 @@ header {
 }
 
 .social-links a {
-    color: var(--highlight);
+    color: var(--white);
     font-size: 35px;
     transition: color 0.3s ease;
 }
@@ -159,7 +162,7 @@ header {
 
 .contact a {
     font-size: 24px;
-    color: var(--highlight);
+    color: var(--white);
     text-decoration: none;
     margin-top: 25px;
     display: flex;
@@ -169,7 +172,7 @@ header {
 
 .contact a i {
     margin-right: 8px;
-    color: var(--highlight);
+    color: var(--white);
     transition: color 0.3s ease;
 }
 
