@@ -1,5 +1,8 @@
 Harsh Tantia - Frontend Developer Portfolio
-Welcome to my personal portfolio! I’m Harsh Tantia, a passionate Frontend Developer with a love for creating intuitive, responsive, and visually appealing web experiences. This repository showcases some of my work, including projects built with modern web technologies. I enjoy turning ideas into functional, user-friendly applications and am always excited to learn new skills and tackle new challenges.
+Welcome to my personal portfolio! 
+I’m, passionate Frontend Developer with a love for creating intuitive, responsive, and visually appealing web experiences. 
+This repository showcases some of my work, including projects built with modern web technologies. 
+I enjoy turning ideas into functional, user-friendly applications and am always excited to learn new skills and tackle new challenges.
 
 🚀 Technologies & Tools
 Here are some of the main technologies I work with:
