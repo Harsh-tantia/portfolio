@@ -8,7 +8,6 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -72,6 +71,7 @@ header {
 
 .first-name, .last-name {
     font-size: 15vh;
+    font-family: Georgia, serif;
 }
 
 .bounce-icon {
